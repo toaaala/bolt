@@ -134,9 +134,21 @@
 
 .our_text {
   font-size: 20px;
-  text-align: center;
   padding-top: 90px;
   padding-bottom: 70px;
+  text-align: center;
+}
+
+.mail_box {
+  background-color: #74cfae;
+  padding: 14px 12px;
+  float: left;
+  margin-left: 90px;
+}
+
+.mail_text {
+  font-size: 12px;
+  color: white;
 }
 
 .blackbox {
@@ -183,12 +195,12 @@
   color: #74cfae;
   float: left;
   display: flex;
-  padding: 40px 92.5px;
+  padding: 185px;
 }
 
 .button:hover {
   background-color: white;
-  padding: 40px 92.5px;
+  padding: 185;
   margin: auto;
   display: flex;
   transition: all 0.3s;
