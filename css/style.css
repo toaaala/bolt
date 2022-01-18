@@ -1,4 +1,16 @@
 @charset "UTF-8";
+body {
+  font-family: "Lato";
+}
+
+h1,h2,h3,h4 {
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   background-color: white;
   padding-top: 15px;
@@ -13,8 +25,6 @@
 .contact_box {
   background-color: #74cfae;
   padding: 14px 12px;
-  height: 15px;
-  width: 45px;
   float: right;
 }
 
@@ -134,9 +144,14 @@
 
 .our_text {
   font-size: 20px;
-  padding-top: 90px;
-  padding-bottom: 70px;
   text-align: center;
+}
+
+.our_mail {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .mail_box {
@@ -187,24 +202,28 @@
 }
 
 .icon {
-  font-size: 85px;
+  display: flex;
+  justify-content: center;
 }
 
+.icon_box {
+  width: 185px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_box:hover {
+  background-color: white;
+  width: 185px;
+  height: 120px;
+  transition: all 0.3s;
+}
 
 .button {
+  font-size: 70px;
   color: #74cfae;
-  float: left;
-  display: flex;
-  padding: 185px;
-}
-
-.button:hover {
-  background-color: white;
-  padding: 185;
-  margin: auto;
-  display: flex;
-  transition: all 0.3s;
-  cursor: pointer;
 }
 
 .footer {
