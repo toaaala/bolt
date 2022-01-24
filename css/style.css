@@ -9,15 +9,19 @@ h1,h2,h3,h4 {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 .header {
   background-color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
   position: fixed;
   width: 100%;
   z-index: 1000;
+}
+
+.header_inner {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .thunder {
@@ -126,13 +130,21 @@ a {
 .all_picture {
   float: left;
   margin-left: 100px;
-  margin-bottom: 80px;
+}
+
+.all_picture:first-child,:nth-child(3n+4) {
+  margin-left: 0;
+}
+
+.all_picture:nth-child(n+4) {
+  margin-top: 80px;
 }
 
 .picture {
   text-align: center;
   opacity: 0.7;
   transition: 0.3s;
+
 }
 
 .picture:hover {
@@ -141,23 +153,10 @@ a {
   transition: 0.3s;
 }
 
-.all_picture:first-child {
-  margin-left: 0;
-}
-
-.all_picture:nth-child(4) {
-  margin-left: 0;
-  margin-bottom: 0;
-}
-
-.picture:nth-child(5) .picture:nth-child(6) {
-  margin-bottom: 0;
-}
-
 .our_title {
   font-size: 24px;
   text-align: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .our_text {
@@ -167,7 +166,7 @@ a {
 }
 
 .our_mail {
-  margin-top: 10px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -203,7 +202,7 @@ a {
   font-size: 24px;
   text-align: center;
   color: white;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .circle {
@@ -250,7 +249,7 @@ a {
 }
 
 .button {
-  font-size: 70px;
+  font-size: 60px;
   color: #74cfae;
 }
 
