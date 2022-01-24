@@ -94,7 +94,6 @@ a {
 
 .iphone_photo {
   float: left;
-
 }
 
 .what {
@@ -115,6 +114,7 @@ a {
   margin-top: 35px;
   font-size: 20px;
   line-height: normal;
+  width: 700px;
 }
 
 .photo_box {
@@ -125,42 +125,32 @@ a {
 
 .all_picture {
   float: left;
+  margin-left: 100px;
+  margin-bottom: 80px;
 }
 
 .picture {
   text-align: center;
-  display: table;
   opacity: 0.7;
-  margin-left: 100px;
-  margin-bottom: 80px;
-  float: left;
   transition: 0.3s;
 }
 
 .picture:hover {
   text-align: center;
-  display: table;
   opacity: 1;
-  margin-left: 100px;
-  margin-bottom: 80px;
-  float: left;
   transition: 0.3s;
 }
 
-.all_picture:nth-child(1) .picture {
+.all_picture:first-child {
   margin-left: 0;
 }
 
-.all_picture:nth-child(4) .picture {
+.all_picture:nth-child(4) {
   margin-left: 0;
   margin-bottom: 0;
 }
 
-.picture:nth-child(5) {
-  margin-bottom: 0;
-}
-
-.picture:nth-child(6) {
+.picture:nth-child(5) .picture:nth-child(6) {
   margin-bottom: 0;
 }
 
