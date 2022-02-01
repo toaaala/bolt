@@ -3,7 +3,7 @@ body {
   font-family: "Lato";
 }
 
-.title_text .what_title .our_title .skill_title {
+.title_text,.what_title,.our_title,.skill_title {
   font-family: "Raleway";
 }
 
@@ -127,11 +127,17 @@ a {
   padding-bottom: 70px;
 }
 
+.picture_box {
+  padding-top: 40px;
+}
+
 .all_picture {
   float: left;
   margin-left: 100px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+}
+
+.all_picture:nth-child(n+4) {
+  margin-top: 80px;
 }
 
 .all_picture:first-child,:nth-child(3n+4) {
@@ -163,7 +169,7 @@ a {
 }
 
 .our_mail {
-  margin-top: 50px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
