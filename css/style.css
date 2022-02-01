@@ -3,7 +3,7 @@ body {
   font-family: "Lato";
 }
 
-.title_text,.what_title,.our_title,.skill_title {
+.raleway {
   font-family: "Raleway";
 }
 
@@ -128,7 +128,7 @@ a {
 }
 
 .picture_box {
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 .all_picture {
@@ -140,7 +140,7 @@ a {
   margin-top: 80px;
 }
 
-.all_picture:first-child,:nth-child(3n+4) {
+.all_picture:nth-child(3n+1) {
   margin-left: 0;
 }
 
