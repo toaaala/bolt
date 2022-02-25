@@ -313,8 +313,12 @@ a {
     justify-content: center;
   }
 
-  .all_picture:nth-child(4) {
+  .all_picture:nth-child(3n+1) {
     margin-top: 80px;
+  }
+
+  .all_picture:nth-child(1) {
+    margin-top: 0;
   }
 
   .all_picture:nth-child(n+5) {
